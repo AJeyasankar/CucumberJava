@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="10" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="345" started-at="2022-08-11T07:29:11 IST" finished-at="2022-08-11T07:29:11 IST">
+    <groups>
+      <group name="Sanity">
+        <method signature="GroupTestingSample.tc04()[pri:0, instance:org.base.GroupTestingSample@74a10858]" name="tc04" class="org.base.GroupTestingSample"/>
+        <method signature="GroupTestingSample.tc07()[pri:0, instance:org.base.GroupTestingSample@74a10858]" name="tc07" class="org.base.GroupTestingSample"/>
+        <method signature="GroupTestingSample.tc01()[pri:0, instance:org.base.GroupTestingSample@74a10858]" name="tc01" class="org.base.GroupTestingSample"/>
+      </group> <!-- Sanity -->
+      <group name="Regg">
+        <method signature="GroupTestingSample.tc02()[pri:0, instance:org.base.GroupTestingSample@74a10858]" name="tc02" class="org.base.GroupTestingSample"/>
+        <method signature="GroupTestingSample.tc06()[pri:0, instance:org.base.GroupTestingSample@74a10858]" name="tc06" class="org.base.GroupTestingSample"/>
+      </group> <!-- Regg -->
+      <group name="Smoke">
+        <method signature="GroupTestingSample.tc03()[pri:0, instance:org.base.GroupTestingSample@74a10858]" name="tc03" class="org.base.GroupTestingSample"/>
+        <method signature="GroupTestingSample.tc05()[pri:0, instance:org.base.GroupTestingSample@74a10858]" name="tc05" class="org.base.GroupTestingSample"/>
+      </group> <!-- Smoke -->
+      <group name="Unit">
+        <method signature="GroupTestingSample.tc09()[pri:0, instance:org.base.GroupTestingSample@74a10858]" name="tc09" class="org.base.GroupTestingSample"/>
+        <method signature="GroupTestingSample.tc08()[pri:0, instance:org.base.GroupTestingSample@74a10858]" name="tc08" class="org.base.GroupTestingSample"/>
+      </group> <!-- Unit -->
+    </groups>
+    <test name="Test" duration-ms="345" started-at="2022-08-11T07:29:11 IST" finished-at="2022-08-11T07:29:11 IST">
+      <class name="org.base.GroupTestingSample">
+        <test-method status="PASS" signature="tc04()[pri:0, instance:org.base.GroupTestingSample@74a10858]" name="tc04" duration-ms="31" started-at="2022-08-11T07:29:11 IST" finished-at="2022-08-11T07:29:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04 -->
+        <test-method status="PASS" signature="tc07()[pri:0, instance:org.base.GroupTestingSample@74a10858]" name="tc07" duration-ms="0" started-at="2022-08-11T07:29:11 IST" finished-at="2022-08-11T07:29:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc07 -->
+        <test-method status="PASS" signature="tc09()[pri:0, instance:org.base.GroupTestingSample@74a10858]" name="tc09" duration-ms="16" started-at="2022-08-11T07:29:11 IST" finished-at="2022-08-11T07:29:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc09 -->
+        <test-method status="PASS" signature="tc03()[pri:0, instance:org.base.GroupTestingSample@74a10858]" name="tc03" duration-ms="15" started-at="2022-08-11T07:29:11 IST" finished-at="2022-08-11T07:29:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03 -->
+        <test-method status="PASS" signature="tc05()[pri:0, instance:org.base.GroupTestingSample@74a10858]" name="tc05" duration-ms="16" started-at="2022-08-11T07:29:11 IST" finished-at="2022-08-11T07:29:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05 -->
+        <test-method status="PASS" signature="tc06()[pri:0, instance:org.base.GroupTestingSample@74a10858]" name="tc06" duration-ms="16" started-at="2022-08-11T07:29:11 IST" finished-at="2022-08-11T07:29:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc06 -->
+        <test-method status="PASS" signature="tc08()[pri:0, instance:org.base.GroupTestingSample@74a10858]" name="tc08" duration-ms="15" started-at="2022-08-11T07:29:11 IST" finished-at="2022-08-11T07:29:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc08 -->
+        <test-method status="PASS" signature="tc01()[pri:0, instance:org.base.GroupTestingSample@74a10858]" name="tc01" duration-ms="0" started-at="2022-08-11T07:29:11 IST" depends-on-methods="org.base.GroupTestingSample.tc09" finished-at="2022-08-11T07:29:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01 -->
+        <test-method status="PASS" signature="tc02()[pri:0, instance:org.base.GroupTestingSample@74a10858]" name="tc02" duration-ms="0" depends-on-groups="Sanity" started-at="2022-08-11T07:29:11 IST" finished-at="2022-08-11T07:29:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02 -->
+      </class> <!-- org.base.GroupTestingSample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
